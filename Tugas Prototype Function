@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+void CetakInfo ( );
+int kali ( int x, int y );
+
+int main ( )
+{
+	CetakInfo ( );
+	cout << " kali (12,16) = " << kali ( 12, 16 ) << endl;
+	
+	return 0;
+}
+
+void CetakInfo ( )
+{
+	cout << " Belajar C++ " << endl << endl;
+}
+
+int kali ( int x, int y ) {
+	return x * y;
+}
